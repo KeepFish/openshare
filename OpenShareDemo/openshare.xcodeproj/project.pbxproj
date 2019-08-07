@@ -7,6 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A14E617522FA72F400561810 /* OpenShareManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A14E617422FA72F400561810 /* OpenShareManager.m */; };
+		A14E617F22FA73B700561810 /* OpenShare.h in Headers */ = {isa = PBXBuildFile; fileRef = A14E617D22FA73B700561810 /* OpenShare.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A14E618222FA73B700561810 /* OpenShare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A14E617B22FA73B700561810 /* OpenShare.framework */; };
+		A14E618322FA73B700561810 /* OpenShare.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A14E617B22FA73B700561810 /* OpenShare.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A14E618822FA73F700561810 /* OpenShare+QQ.h in Headers */ = {isa = PBXBuildFile; fileRef = B66BF3E21B0C16290082F8D6 /* OpenShare+QQ.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A14E618922FA73F700561810 /* OpenShare+Renren.h in Headers */ = {isa = PBXBuildFile; fileRef = B66BF3E41B0C16290082F8D6 /* OpenShare+Renren.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A14E618A22FA73F700561810 /* OpenShare+Weibo.h in Headers */ = {isa = PBXBuildFile; fileRef = B66BF3E61B0C16290082F8D6 /* OpenShare+Weibo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A14E618B22FA73F700561810 /* OpenShare+Weixin.h in Headers */ = {isa = PBXBuildFile; fileRef = B66BF3E81B0C16290082F8D6 /* OpenShare+Weixin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A14E618C22FA73F700561810 /* OpenShare+Alipay.h in Headers */ = {isa = PBXBuildFile; fileRef = B6E22B1D1B213B09001930CA /* OpenShare+Alipay.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A14E618D22FA73F700561810 /* OpenShareHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = B66BF3EC1B0C16290082F8D6 /* OpenShareHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A14E618E22FA73F700561810 /* OpenShareManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A14E617322FA72F400561810 /* OpenShareManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A14E618F22FA740500561810 /* OpenShare+QQ.m in Sources */ = {isa = PBXBuildFile; fileRef = B66BF3E31B0C16290082F8D6 /* OpenShare+QQ.m */; };
+		A14E619022FA740500561810 /* OpenShare+Renren.m in Sources */ = {isa = PBXBuildFile; fileRef = B66BF3E51B0C16290082F8D6 /* OpenShare+Renren.m */; };
+		A14E619122FA740500561810 /* OpenShare+Weibo.m in Sources */ = {isa = PBXBuildFile; fileRef = B66BF3E71B0C16290082F8D6 /* OpenShare+Weibo.m */; };
+		A14E619222FA740500561810 /* OpenShare+Weixin.m in Sources */ = {isa = PBXBuildFile; fileRef = B66BF3E91B0C16290082F8D6 /* OpenShare+Weixin.m */; };
+		A14E619322FA740500561810 /* OpenShare+Alipay.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E22B1E1B213B09001930CA /* OpenShare+Alipay.m */; };
+		A14E619422FA740500561810 /* OpenShareManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A14E617422FA72F400561810 /* OpenShareManager.m */; };
 		B66BF3B31B0C137E0082F8D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B66BF3B21B0C137E0082F8D6 /* main.m */; };
 		B66BF3B61B0C137E0082F8D6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B66BF3B51B0C137E0082F8D6 /* AppDelegate.m */; };
 		B66BF3B91B0C137E0082F8D6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B66BF3B81B0C137E0082F8D6 /* ViewController.m */; };
@@ -21,13 +38,19 @@
 		B66BF3EE1B0C16290082F8D6 /* OpenShare+Renren.m in Sources */ = {isa = PBXBuildFile; fileRef = B66BF3E51B0C16290082F8D6 /* OpenShare+Renren.m */; };
 		B66BF3EF1B0C16290082F8D6 /* OpenShare+Weibo.m in Sources */ = {isa = PBXBuildFile; fileRef = B66BF3E71B0C16290082F8D6 /* OpenShare+Weibo.m */; };
 		B66BF3F01B0C16290082F8D6 /* OpenShare+Weixin.m in Sources */ = {isa = PBXBuildFile; fileRef = B66BF3E91B0C16290082F8D6 /* OpenShare+Weixin.m */; };
-		B66BF3F11B0C16290082F8D6 /* OpenShare.m in Sources */ = {isa = PBXBuildFile; fileRef = B66BF3EB1B0C16290082F8D6 /* OpenShare.m */; };
 		B66BF3F41B0C1AEB0082F8D6 /* UIControl+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = B66BF3F31B0C1AEB0082F8D6 /* UIControl+Blocks.m */; };
 		B66BF3F81B0C23670082F8D6 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B66BF3F71B0C23670082F8D6 /* Default@2x.png */; };
 		B6E22B1F1B213B09001930CA /* OpenShare+Alipay.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E22B1E1B213B09001930CA /* OpenShare+Alipay.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		A14E618022FA73B700561810 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B66BF3A51B0C137D0082F8D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A14E617A22FA73B700561810;
+			remoteInfo = OpenShare;
+		};
 		B66BF3C71B0C137E0082F8D6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B66BF3A51B0C137D0082F8D6 /* Project object */;
@@ -37,7 +60,26 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		A14E618722FA73B700561810 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A14E618322FA73B700561810 /* OpenShare.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		A14E617322FA72F400561810 /* OpenShareManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = OpenShareManager.h; path = ../openshare/OpenShareManager.h; sourceTree = "<group>"; };
+		A14E617422FA72F400561810 /* OpenShareManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = OpenShareManager.m; path = ../openshare/OpenShareManager.m; sourceTree = "<group>"; };
+		A14E617B22FA73B700561810 /* OpenShare.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OpenShare.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A14E617D22FA73B700561810 /* OpenShare.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenShare.h; sourceTree = "<group>"; };
+		A14E617E22FA73B700561810 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B66BF3AD1B0C137E0082F8D6 /* openshare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = openshare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B66BF3B11B0C137E0082F8D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B66BF3B21B0C137E0082F8D6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -62,8 +104,6 @@
 		B66BF3E71B0C16290082F8D6 /* OpenShare+Weibo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OpenShare+Weibo.m"; sourceTree = "<group>"; };
 		B66BF3E81B0C16290082F8D6 /* OpenShare+Weixin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OpenShare+Weixin.h"; sourceTree = "<group>"; };
 		B66BF3E91B0C16290082F8D6 /* OpenShare+Weixin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OpenShare+Weixin.m"; sourceTree = "<group>"; };
-		B66BF3EA1B0C16290082F8D6 /* OpenShare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenShare.h; sourceTree = "<group>"; };
-		B66BF3EB1B0C16290082F8D6 /* OpenShare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenShare.m; sourceTree = "<group>"; };
 		B66BF3EC1B0C16290082F8D6 /* OpenShareHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenShareHeader.h; sourceTree = "<group>"; };
 		B66BF3F21B0C1AEB0082F8D6 /* UIControl+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+Blocks.h"; sourceTree = "<group>"; };
 		B66BF3F31B0C1AEB0082F8D6 /* UIControl+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+Blocks.m"; sourceTree = "<group>"; };
@@ -73,10 +113,18 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		A14E617822FA73B700561810 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B66BF3AA1B0C137E0082F8D6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A14E618222FA73B700561810 /* OpenShare.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,11 +138,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A14E617C22FA73B700561810 /* OpenShare */ = {
+			isa = PBXGroup;
+			children = (
+				A14E617D22FA73B700561810 /* OpenShare.h */,
+				A14E617E22FA73B700561810 /* Info.plist */,
+			);
+			path = OpenShare;
+			sourceTree = "<group>";
+		};
 		B66BF3A41B0C137D0082F8D6 = {
 			isa = PBXGroup;
 			children = (
 				B66BF3AF1B0C137E0082F8D6 /* openshare */,
 				B66BF3C91B0C137E0082F8D6 /* openshareTests */,
+				A14E617C22FA73B700561810 /* OpenShare */,
 				B66BF3AE1B0C137E0082F8D6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -104,6 +162,7 @@
 			children = (
 				B66BF3AD1B0C137E0082F8D6 /* openshare.app */,
 				B66BF3C61B0C137E0082F8D6 /* openshareTests.xctest */,
+				A14E617B22FA73B700561810 /* OpenShare.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -177,9 +236,9 @@
 				B66BF3E91B0C16290082F8D6 /* OpenShare+Weixin.m */,
 				B6E22B1D1B213B09001930CA /* OpenShare+Alipay.h */,
 				B6E22B1E1B213B09001930CA /* OpenShare+Alipay.m */,
-				B66BF3EA1B0C16290082F8D6 /* OpenShare.h */,
-				B66BF3EB1B0C16290082F8D6 /* OpenShare.m */,
 				B66BF3EC1B0C16290082F8D6 /* OpenShareHeader.h */,
+				A14E617322FA72F400561810 /* OpenShareManager.h */,
+				A14E617422FA72F400561810 /* OpenShareManager.m */,
 			);
 			name = OpenShare;
 			path = ../../OpenShare;
@@ -187,7 +246,43 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		A14E617622FA73B700561810 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A14E617F22FA73B700561810 /* OpenShare.h in Headers */,
+				A14E618822FA73F700561810 /* OpenShare+QQ.h in Headers */,
+				A14E618922FA73F700561810 /* OpenShare+Renren.h in Headers */,
+				A14E618A22FA73F700561810 /* OpenShare+Weibo.h in Headers */,
+				A14E618B22FA73F700561810 /* OpenShare+Weixin.h in Headers */,
+				A14E618C22FA73F700561810 /* OpenShare+Alipay.h in Headers */,
+				A14E618D22FA73F700561810 /* OpenShareHeader.h in Headers */,
+				A14E618E22FA73F700561810 /* OpenShareManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		A14E617A22FA73B700561810 /* OpenShare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A14E618422FA73B700561810 /* Build configuration list for PBXNativeTarget "OpenShare" */;
+			buildPhases = (
+				A14E617622FA73B700561810 /* Headers */,
+				A14E617722FA73B700561810 /* Sources */,
+				A14E617822FA73B700561810 /* Frameworks */,
+				A14E617922FA73B700561810 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenShare;
+			productName = OpenShare;
+			productReference = A14E617B22FA73B700561810 /* OpenShare.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		B66BF3AC1B0C137E0082F8D6 /* openshare */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B66BF3D01B0C137E0082F8D6 /* Build configuration list for PBXNativeTarget "openshare" */;
@@ -195,10 +290,12 @@
 				B66BF3A91B0C137E0082F8D6 /* Sources */,
 				B66BF3AA1B0C137E0082F8D6 /* Frameworks */,
 				B66BF3AB1B0C137E0082F8D6 /* Resources */,
+				A14E618722FA73B700561810 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				A14E618122FA73B700561810 /* PBXTargetDependency */,
 			);
 			name = openshare;
 			productName = openshare;
@@ -232,6 +329,11 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "OpenShare http://openshare.gfzj.us/";
 				TargetAttributes = {
+					A14E617A22FA73B700561810 = {
+						CreatedOnToolsVersion = 10.2;
+						DevelopmentTeam = UXQ4US7LL6;
+						ProvisioningStyle = Automatic;
+					};
 					B66BF3AC1B0C137E0082F8D6 = {
 						CreatedOnToolsVersion = 6.3.1;
 						DevelopmentTeam = UXQ4US7LL6;
@@ -247,6 +349,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -257,11 +360,19 @@
 			targets = (
 				B66BF3AC1B0C137E0082F8D6 /* openshare */,
 				B66BF3C51B0C137E0082F8D6 /* openshareTests */,
+				A14E617A22FA73B700561810 /* OpenShare */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		A14E617922FA73B700561810 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B66BF3AB1B0C137E0082F8D6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -286,15 +397,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		A14E617722FA73B700561810 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A14E618F22FA740500561810 /* OpenShare+QQ.m in Sources */,
+				A14E619022FA740500561810 /* OpenShare+Renren.m in Sources */,
+				A14E619122FA740500561810 /* OpenShare+Weibo.m in Sources */,
+				A14E619222FA740500561810 /* OpenShare+Weixin.m in Sources */,
+				A14E619322FA740500561810 /* OpenShare+Alipay.m in Sources */,
+				A14E619422FA740500561810 /* OpenShareManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B66BF3A91B0C137E0082F8D6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				B66BF3B91B0C137E0082F8D6 /* ViewController.m in Sources */,
+				A14E617522FA72F400561810 /* OpenShareManager.m in Sources */,
 				B66BF3EE1B0C16290082F8D6 /* OpenShare+Renren.m in Sources */,
 				B66BF3B61B0C137E0082F8D6 /* AppDelegate.m in Sources */,
 				B66BF3F41B0C1AEB0082F8D6 /* UIControl+Blocks.m in Sources */,
-				B66BF3F11B0C16290082F8D6 /* OpenShare.m in Sources */,
 				B66BF3B31B0C137E0082F8D6 /* main.m in Sources */,
 				B66BF3EF1B0C16290082F8D6 /* OpenShare+Weibo.m in Sources */,
 				B6E22B1F1B213B09001930CA /* OpenShare+Alipay.m in Sources */,
@@ -314,6 +438,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		A14E618122FA73B700561810 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A14E617A22FA73B700561810 /* OpenShare */;
+			targetProxy = A14E618022FA73B700561810 /* PBXContainerItemProxy */;
+		};
 		B66BF3C81B0C137E0082F8D6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = B66BF3AC1B0C137E0082F8D6 /* openshare */;
@@ -333,6 +462,92 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		A14E618522FA73B700561810 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = UXQ4US7LL6;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = OpenShare/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				OTHER_CFLAGS = "-fembed-bitcode";
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_BUNDLE_IDENTIFIER = com.topode.lmps.OpenShare;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A14E618622FA73B700561810 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = UXQ4US7LL6;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = OpenShare/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_FAST_MATH = YES;
+				OTHER_CFLAGS = "-fembed-bitcode";
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_BUNDLE_IDENTIFIER = com.topode.lmps.OpenShare;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		B66BF3CE1B0C137E0082F8D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -425,6 +640,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = UXQ4US7LL6;
 				INFOPLIST_FILE = openshare/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -439,6 +655,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = UXQ4US7LL6;
 				INFOPLIST_FILE = openshare/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -487,6 +704,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		A14E618422FA73B700561810 /* Build configuration list for PBXNativeTarget "OpenShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A14E618522FA73B700561810 /* Debug */,
+				A14E618622FA73B700561810 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		B66BF3A81B0C137D0082F8D6 /* Build configuration list for PBXProject "openshare" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

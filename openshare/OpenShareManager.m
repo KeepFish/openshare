@@ -1,18 +1,17 @@
 //
-//  OpenShare.m
+//  OpenShareManager.m
 //  openshare
 //
-//  Created by LiuLogan on 15/5/13.
-//  Copyright (c) 2015年 OpenShare. All rights reserved.
+//  Created by 孙立 on 2019/8/7.
+//  Copyright © 2019 OpenShare http://openshare.gfzj.us/. All rights reserved.
 //
 
-#import "OpenShare.h"
+#import "OpenShareManager.h"
 #import <WebKit/WebKit.h>
 
-@interface OpenShare() <WKNavigationDelegate>
+@interface OpenShare () <WKNavigationDelegate>
 
 @end
-
 
 @implementation OpenShare
 
@@ -38,7 +37,7 @@
  *  用于保存各个平台的key。每个平台需要的key／appid不一样，所以用dictionary保存。
  */
 static NSMutableDictionary *keys;
-                                  
+
 +(void)set:(NSString*)platform Keys:(NSDictionary *)key{
     if (!keys) {
         keys=[[NSMutableDictionary alloc] init];
@@ -79,7 +78,7 @@ static NSMutableDictionary *keys;
 
 #pragma mark 分享／auth以后，应用被调起，回调。
 static NSURL* returnedURL;
-static NSDictionary *returnedData; 
+static NSDictionary *returnedData;
 static shareSuccess shareSuccessCallback;
 static shareFail shareFailCallback;
 
@@ -173,7 +172,7 @@ static OSMessage *message;
     return  [[input dataUsingEncoding:NSUTF8StringEncoding] base64EncodedStringWithOptions:0];
 }
 +(NSString*)base64Decode:(NSString *)input{
-   return [[NSString alloc ] initWithData:[[NSData alloc] initWithBase64EncodedString:input options:0] encoding:NSUTF8StringEncoding];
+    return [[NSString alloc ] initWithData:[[NSData alloc] initWithBase64EncodedString:input options:0] encoding:NSUTF8StringEncoding];
 }
 +(NSString*)CFBundleDisplayName{
     return [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleName"];
@@ -226,7 +225,7 @@ static OSMessage *message;
     return  [[self base64Encode:string] stringByAddingPercentEncodingWithAllowedCharacters:[NSCharacterSet URLHostAllowedCharacterSet]];
 }
 +(NSString*)urlDecode:(NSString*)input{
-   return [[input stringByReplacingOccurrencesOfString:@"+" withString:@" "]stringByReplacingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
+    return [[input stringByReplacingOccurrencesOfString:@"+" withString:@" "]stringByReplacingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
 }
 /**
  *  截屏功能。via：http://stackoverflow.com/a/8017292/3825920
@@ -287,7 +286,7 @@ static OSMessage *message;
 }
 
 - (UIImage *)scaleImage:(UIImage *)image toSize:(CGSize)size{
-       UIGraphicsBeginImageContext(size);
+    UIGraphicsBeginImageContext(size);
     [image drawInRect:CGRectMake(0,0, size.width, size.height)];
     UIImage* scaledImage =UIGraphicsGetImageFromCurrentImageContext();
     UIGraphicsEndImageContext();
@@ -340,7 +339,7 @@ static OSMessage *message;
     webView.frame = CGRectMake(0, 20, webView.frame.size.width, webView.frame.size.height - 20);
     
     [webView loadRequest:[NSURLRequest requestWithURL:URL]];
-
+    
     
     UIActivityIndicatorView *indicator = [[UIActivityIndicatorView alloc] initWithFrame:CGRectMake(0, 0, 20, 20)];
     indicator.center = CGPointMake(CGRectGetMidX(webView.bounds), CGRectGetMidY(webView.bounds)+30);
@@ -463,3 +462,4 @@ static OSMessage *message;
 }
 
 @end
+

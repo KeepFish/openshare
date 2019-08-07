@@ -1,13 +1,14 @@
 //
-//  OpenShare.h
+//  OpenShareManager.h
 //  openshare
 //
-//  Created by LiuLogan on 15/5/13.
-//  Copyright (c) 2015年 OpenShare. All rights reserved.
+//  Created by 孙立 on 2019/8/7.
+//  Copyright © 2019 OpenShare http://openshare.gfzj.us/. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
+
 /**
  分享类型，除了news以外，还可能是video／audio／app等。
  */
@@ -55,6 +56,7 @@ typedef enum : NSUInteger {
  *  @return YES／NO
  */
 -(BOOL)isEmpty:(NSArray*)emptyValueForKeys AndNotEmpty:(NSArray*)notEmptyValueForKeys;
+
 @end
 
 
@@ -73,8 +75,8 @@ typedef enum : NSUInteger {
     OSPboardEncodingKeyedArchiver,
     OSPboardEncodingPropertyListSerialization,
 } OSPboardEncoding;
-@interface OpenShare : NSObject
 
+@interface OpenShare : NSObject
 
 + (OpenShare *)shared;
 

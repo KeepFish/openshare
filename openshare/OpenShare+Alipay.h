@@ -6,7 +6,7 @@
 //  Copyright (c) 2015年 OpenShare <http://openshare.gfzj.us/>. All rights reserved.
 //
 
-#import "OpenShare.h"
+#import "OpenShareManager.h"
 
 @interface OpenShare (Alipay)
 +(void)connectAlipay;
