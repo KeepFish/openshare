@@ -94,7 +94,7 @@ pod 'OpenShare'
 ```
 或
 ```
-github KeepFish/openshare
+git "https://github.com/KeepFish/openshare" "master"
 ```
 
 引入 OpenShare。
