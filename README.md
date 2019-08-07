@@ -1,6 +1,6 @@
 ![](https://github.com/100apps/openshare/raw/gh-pages/images/slogo.png)
 
-<p align="center">
+<p align="left">
     <a href="https://travis-ci.org/100apps/openshare">
         <img src="https://img.shields.io/travis/100apps/openshare.svg">
     </a>
@@ -87,10 +87,14 @@ msg.title=@"Hello World";
 
 ### 1. 快速集成
 
-OpenShare 已经支持 CocoaPods。所以您可以用：
+OpenShare 已经支持 CocoaPods和Carthage。所以您可以用：
 
 ```
 pod 'OpenShare'
+```
+或
+```
+github KeepFish/openshare
 ```
 
 引入 OpenShare。
